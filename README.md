@@ -1,5 +1,4 @@
 # data_analytics_project
-Readme :
 The following file is a Data Analytics Project based on the co2 
 Emissions in India. Using a dataset from the Our World in Data website. 
 We cleaned, manipulated and transformed the data in order to perform the 
