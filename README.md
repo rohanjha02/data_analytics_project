@@ -16,46 +16,44 @@ This dataset provides information about various environmental and economic indic
 # Project structure
 Data Cleaning and Exploration:
 
-Data Tab View:
-Provides an overview of the dataset.
-Showcases the first and last ten rows.
-Detailed column information included.
+  Data Tab View:
+     Provides an overview of the dataset.
+     Showcases the first and last ten rows.
+     Detailed column information included.
 
 Data Profile:
-
-Profile View:
-Generates a Pandas profiling report.
-Offers insights into data types, missing values, correlations, and variable distributions.
+  Profile View:
+     Generates a Pandas profiling report.
+     Offers insights into data types, missing values, correlations, and variable distributions.
+     
 Descriptive Statistics:
 
-Descriptive Statistics Tab View:
-Presents summary metrics like mean, standard deviation, and quartiles.
-Focuses on numerical columns.
+  Descriptive Statistics Tab View:
+     Presents summary metrics like mean, standard deviation, and quartiles.
+     Focuses on numerical columns.
+
 Exploratory Data Analysis (EDA):
 
-Exploratory Data Analysis Tab View:
-Utilizes interactive visualizations:
-Histograms
-Scatter plots
-Pie charts
+  Exploratory Data Analysis Tab View:
+     Utilizes interactive visualizations:
+     Histograms
+     Scatter plots
+     Pie charts
+     Time series plot
+     Area Plot
 Explores data distribution patterns and relationships.
+
 Data Profiling:
 
-Integral for Comprehensive Analysis:
-Unveils crucial insights into:
-Data types
-Missing values
-Correlations
-Distributions
+  Integral for Comprehensive Analysis:
+       Unveils crucial insights into:
+                Data types
+                Missing values
+                Correlations
+                Distributions
+
 Predictive Modeling:
 
-Predict Air Quality View:
-Implements a RandomForestRegressor.
-Allows users to input values for various features.
-Obtains predictions, and the trained model is saved for future use.
-Additional
-
-Land Erosion Prediction (Jupyter Notebook):
-land_prediction folder:
-Contains .ipynb files providing codes and analysis for predicting land erosion.
-Includes data preprocessing, feature engineering, and model training using machine learning techniques.
+Predict Co2 in coming years:
+    Allows users to input year.
+    Obtains predictions, and the trained model is saved for future use.
